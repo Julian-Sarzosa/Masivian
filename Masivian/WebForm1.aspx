@@ -19,10 +19,6 @@
                 width: 92px;
             }
             
-            .auto-style18 {
-                width: 87px;
-                height: 66px;
-            }
             .auto-style19 {
                 width: 89%;
                 height: 57px;
@@ -30,6 +26,10 @@
             .auto-style20 {
                 width: 321px;
                 text-align: center;
+            }
+            .auto-style22 {
+                width: 87px;
+                height: 66px;
             }
         </style>
     </head>
@@ -51,17 +51,21 @@
                                 </tr>
                                 <tr>
                                     <td class="auto-style11">
+                                        <asp:Image ID="Image1" runat="server" Height="490px" ImageUrl="~/Images/roulet.png" SkinID="Img1" />
+                                    </td>
+                                    <td class="auto-style10">
                                         <table style="width: 100%;">
                                             <tr>
-                                                <td class="auto-style16">&nbsp;</td>
-                                                <td class="auto-style17">&nbsp;</td>
-                                                <td>&nbsp;</td>
+                                                <td class="auto-style16"></td>
+                                                <td class="auto-style17"></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                                 <td class="auto-style16">&nbsp;</td>
-                                                <td class="auto-style17">&nbsp;</td>
+                                                <td class="auto-style17">
+                                                    <img alt="fl" class="auto-style22" src="Images/flecha.png" /></td>
                                                 <td>
-                                                    <img alt="flecha" id="Image2" class="auto-style18" src="Images/flecha.png" /></td>
+                                                    &nbsp;</td>
                                             </tr>
                                             <tr>
                                                 <td class="auto-style16">&nbsp;</td>
@@ -69,9 +73,6 @@
                                                 <td>&nbsp;</td>
                                             </tr>
                                         </table>
-                                    </td>
-                                    <td class="auto-style10">
-                                        <asp:Image ID="Image1" runat="server" Height="490px" ImageUrl="~/Images/roulet.png" SkinID="Img1" />
                                     </td>
                                     <td class="auto-style9">
                                         <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Large" Text="Número:" Font-Names="Arial Black"></asp:Label>
